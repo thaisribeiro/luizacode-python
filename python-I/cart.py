@@ -9,7 +9,9 @@ quantity_product = int(input("Insira a quantidade de produto:"))
 item = [id_produto, id_user, price_product, quantity_product]
 def add_item_cart():
     cart.append(item)
-    return cart
+    print('sucesso')
+    response.json('201', 'create')
+    # return cart
 
 def get_all_items_cart():
     return cart
