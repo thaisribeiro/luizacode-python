@@ -1,3 +1,3 @@
-from abstracao import fazer_cafe
+from fazer_cafe import fazer_cafe
 
 print(fazer_cafe())
