@@ -1,6 +1,6 @@
 from cart_class import cart
 
-qtd_items = int(input("Me diga quantos itens você vai colocar no carrinho"))
+qtd_items = int(input("Me diga quantos itens você vai colocar no carrinho: "))
 
 # Adicionar itens no carrinho
 count = 0
@@ -24,4 +24,4 @@ id_product_remove = input("Insira o id do produto que você deseja remover do ca
 item = cart.remove_item_id_product(id_product_remove)
 print("Resultado do carrinho com o item removido:", cart.carts)
 
-# calcular o total do carrinho
+#calcular o total do carrinho

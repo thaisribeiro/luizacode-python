@@ -14,10 +14,8 @@ class Cart:
         return cart[0]
 
     def remove_item_id_product(self, id_product):
-        for i, el in enumerate(id_product):
+        for i, el in enumerate(self.carts):
             if el[0] == id_product:
-                self.carts.remove(i)
+                self.carts.pop(i)
 
-    
-        
 cart = Cart()
