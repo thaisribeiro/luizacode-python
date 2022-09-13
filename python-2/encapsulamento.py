@@ -1,6 +1,3 @@
-# from mimetypes import init
-
-
 class Hogwarts:
     def __init__(self, houses):
         self.houses = houses
